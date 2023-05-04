@@ -1,0 +1,259 @@
+:root {
+    --main-font-family: 'Roboto', sans-serif;
+    --secondary-font-family-family: 'Raleway', sans-serif;
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+}
+.logotype {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    /* identical to box height, or 117% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    /* IRIS */
+    
+    color: #4D5AE5;
+}
+.span-studio {
+    color: #2E2F42;
+}
+body {
+    font-family: 'Roboto',sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+.menu-link {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        /* identical to box height, or 150% */
+    
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+.menu-link:hover,
+.menu-link:focus {
+    color: #404BBF;
+}
+address {
+    font-style: normal;
+}
+.contact {
+    font-style:normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        /* identical to box height, or 150% */
+    
+        letter-spacing: 0.02em;
+    
+        /* SLATE */
+    
+        color: #434455;
+}
+.contact:hover,
+.contact:focus {
+    color: #404BBF;
+}
+.title-section {
+    background: #2E2F42;
+}
+.main-title {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        /* or 107% */
+    
+        text-align: center;
+        letter-spacing: 0.02em;
+    
+        /* WHITE */
+    
+        color: #FFFFFF;
+}
+.modal-open-btn {
+    font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        /* identical to box height, or 150% */
+    
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+    
+        /* WHITE */
+    
+        color: #FFFFFF;
+        background: #4D5AE5;
+}
+.modal-open-btn:hover,
+.modal-open-btn:focus {
+    background: #404BBF;
+}
+.filters-btn {
+    font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        /* identical to box height, or 150% */
+    
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+    
+        /* IRIS */
+    
+        color: #4D5AE5;
+        background: #F4F4FD;
+}
+.filters-btn:hover,
+.filters-btn:focus {
+    background: #404BBF;
+    color: #FFFFFF;
+}
+.about-company-title {
+    color: #2e2f42;
+}
+.advantages {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        /* identical to box height, or 120% */
+    
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.description-advantages {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        /* or 150% */
+    
+        letter-spacing: 0.02em;
+    color: #434455;
+}
+.our-works-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        /* identical to box height, or 111% */
+    
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2e2f42;
+}
+.our-team {
+    background: #F4F4FD;
+}
+.our-team-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        /* identical to box height, or 111% */
+    
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2E2F42;
+}
+.our-team-item {
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px
+    rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.name-person {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        /* identical to box height, or 120% */
+    
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.description-person {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        /* identical to box height, or 150% */
+    
+        text-align: center;
+        letter-spacing: 0.02em;
+    
+        /* SLATE */
+    
+        color: #434455;
+}
+.page-footer {
+    background-color:#2E2F42;
+}
+.span-studio-footer {
+    font-weight: 800;
+        font-size: 18px;
+        line-height: 1.16;
+        /* identical to box height, or 117% */
+    
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        /* CLOUD */
+    
+        color: #F4F4FD;
+}
+.desrciption-footer {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        /* or 150% */
+    
+        letter-spacing: 0.02em;
+    
+        /* CLOUD */
+    
+        color: #F4F4FD;
+}
+.galery-item {
+        border: 1px solid #E7E9FC;
+}
+.subtitle {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        /* identical to box height, or 120% */
+    
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.description-subtitle {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        /* identical to box height, or 150% */
+    
+        letter-spacing: 0.02em;
+    
+        /* SLATE */
+    
+        color: #434455;
+}
