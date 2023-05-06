@@ -44,11 +44,10 @@ button {
 .page-navigation {
     display: flex;
     align-items: center;
-    column-gap: 76px;
 }
 .menu {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 .address-page {
     display: flex;
@@ -56,7 +55,7 @@ button {
 }
 .address-list {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 .logotype {
     font-family: 'Raleway', sans-serif;
@@ -69,6 +68,7 @@ button {
     text-transform: uppercase;
     text-decoration: none;
     color: #4D5AE5;
+    margin-right: 76px;
 }
 .span-studio {
     color: #2E2F42;
