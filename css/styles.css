@@ -78,6 +78,9 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+.menu-item {
+    padding: 24px 0;
+}
 .menu-link {
     font-weight: 500;
     font-size: 16px;
@@ -124,6 +127,7 @@ address {
     max-width: 496px;
 }
 .modal-open-btn {
+    display: block;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -136,6 +140,8 @@ address {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     color: #FFFFFF;
     background: #4D5AE5;
+    margin-right: auto;
+    margin-left: auto;
 }
 .modal-open-btn:hover,
 .modal-open-btn:focus {
@@ -154,14 +160,19 @@ address {
     background: #404BBF;
     color: #FFFFFF;
 }
+.about-company {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .about-company-title {
     color: #2e2f42;
 }
 .about-company-list {
     display: flex;
     gap: 24px;
-    padding-top: 120px;
-    padding-bottom: 120px;
+}
+.about-company-item {
+    flex-basis: calc((100% - 72px) / 4)
 }
 .advantages {
     font-weight: 500;
