@@ -80,7 +80,7 @@ body {
     background-color: #FFFFFF;
 }
 .menu-item {
-    padding: 24px 0;
+    
 }
 .menu-link {
     font-weight: 500;
@@ -88,6 +88,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    padding: 24px 0;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -173,7 +174,7 @@ address {
     gap: 24px;
 }
 .about-company-item {
-    flex-basis: calc((100% - 72px) / 4)
+    flex-basis: calc((100% - 72px) / 4);
 }
 .advantages {
     font-weight: 500;
@@ -214,7 +215,7 @@ address {
     }
 .our-works-item {
     border: 1px solid #E7E9FC;
-    flex-basis: calc((100% - 48px) / 3)
+    flex-basis: calc((100% - 48px) / 3);
 }
 .our-team {
     background: #F4F4FD;
