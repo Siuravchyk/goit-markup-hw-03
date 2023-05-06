@@ -196,7 +196,7 @@ address {
     padding-bottom: 120px;
 }
 .our-works-container {
-    flex-basis: calc((100% - 48px) / 3);
+    
 }
 .our-works-title {
     font-weight: 700;
@@ -215,6 +215,7 @@ address {
     }
 .our-works-item {
     border: 1px solid #E7E9FC;
+    width: calc((100% - 48px) / 3);
 }
 .our-works-img {
     
@@ -251,7 +252,7 @@ address {
     padding: 32px 16px;
 }
 .our-team-item {
-    
+    border-radius: 0px 0px 4px 4px;
 }
 .team-person {
     
