@@ -48,6 +48,7 @@ button {
 .menu {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 .address-page {
     display: flex;
@@ -79,7 +80,7 @@ body {
     background-color: #FFFFFF;
 }
 .menu-item {
-    padding: 24px 0;
+    
 }
 .menu-link {
     font-weight: 500;
@@ -209,11 +210,11 @@ address {
 }
 .our-works-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
     }
 .our-works-item {
     border: 1px solid #E7E9FC;
-    flex-basis: calc((100% - 48px) / 3);
+    flex-basis: calc((100% - 3 * 16px) / 3);
 }
 .our-team {
     background: #F4F4FD;
@@ -244,11 +245,10 @@ address {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
-    padding-bottom: 32px;
-    padding-top: 32px;
+    padding: 32px 16px;
 }
 .our-team-item {
-    
+    border-radius: 0px 0px 4px 4px;
 }
 .team-person {
     
@@ -272,6 +272,12 @@ address {
 }
 .page-footer {
     background-color:#2E2F42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.footer-logotype {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .span-studio-footer {
     font-weight: 800;
