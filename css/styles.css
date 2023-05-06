@@ -79,9 +79,6 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
-.menu-item {
-    
-}
 .menu-link {
     font-weight: 500;
     font-size: 16px;
@@ -195,9 +192,6 @@ address {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.our-works-container {
-    
-}
 .our-works-title {
     font-weight: 700;
     font-size: 36px;
@@ -217,16 +211,10 @@ address {
     border: 1px solid #E7E9FC;
     width: calc((100% - 48px) / 3);
 }
-.our-works-img {
-    
-}
 .our-team {
     background: #F4F4FD;
     padding-bottom: 120px;
     padding-top: 120px;
-}
-.our-team-container {
-
 }
 .our-team-title {
     font-weight: 700;
@@ -253,9 +241,6 @@ address {
 }
 .our-team-item {
     border-radius: 0px 0px 4px 4px;
-}
-.team-person {
-    
 }
 .name-person {
     font-weight: 500;
@@ -296,6 +281,9 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+}
+.filters {
+    padding: 96px 0 120px;
 }
 .galery-item {
     border: 1px solid #E7E9FC;
