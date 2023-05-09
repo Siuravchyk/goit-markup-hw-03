@@ -23,6 +23,19 @@ img {
 button {
     cursor: pointer;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .container {
     width: 1158px;
     margin-left: auto;
@@ -33,13 +46,10 @@ button {
 .page-header {
     display: flex;
     border-bottom: 1px solid #E7E9FC;
-    padding-top: 25.5px;
-    padding-bottom: 25.5px;
 }
 .page-header-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 .page-navigation {
     display: flex;
@@ -53,6 +63,7 @@ button {
 .address-page {
     display: flex;
     align-items: center;
+    margin-left: auto;
 }
 .address-list {
     display: flex;
@@ -106,13 +117,12 @@ address {
 .contact:focus {
     color: #404BBF;
 }
-.title-section {
+.hero-section {
     background: #2E2F42;
     text-align: center;
     align-items: center;
     padding-top: 188px;
     padding-bottom: 188px;
-    margin-bottom: 48px;
 }
 .main-title {
     font-weight: 700;
@@ -141,6 +151,7 @@ address {
     background: #4D5AE5;
     margin-right: auto;
     margin-left: auto;
+    letter-spacing: 0.04em;
 }
 .modal-open-btn:hover,
 .modal-open-btn:focus {
@@ -176,7 +187,7 @@ address {
     color: #434455;
 }
 .our-works {
-    padding-top: 120px;
+    padding-top: 0;
     padding-bottom: 120px;
 }
 .our-works-title {
@@ -268,6 +279,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    max-width: 264px;
 }
 .filters {
     padding: 96px 0 120px;
@@ -288,6 +300,7 @@ address {
     padding: 12px 24px;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
+    letter-spacing: 0.04em;
 }
 
 .filters-btn:hover,
